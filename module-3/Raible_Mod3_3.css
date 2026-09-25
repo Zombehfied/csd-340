@@ -1,0 +1,68 @@
+/*
+Lisa Raible
+September 25, 2026
+*/
+
+h1 {
+    text-align: center;
+}
+
+#book-list,
+#learned-list {
+    width: 45%;
+}
+
+#book-list {
+    float: left;
+}
+
+#learned-list {
+    float: right;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol {
+    font-weight: 300;
+}
+
+#book-list h3,
+#book-list ol {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+#book-list ol {
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#learned-list h3,
+#learned-list ol {
+    border: 1px dashed red;
+    border-radius: 15px;
+}
+
+#learned-list ol {
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    float: right;
+}
+
+#bottom a {
+    float: right;
+    text-decoration: none;
+}
+
+#bottom a:hover {
+    text-decoration: underline;
+}
