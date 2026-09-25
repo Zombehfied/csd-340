@@ -1,0 +1,34 @@
+/* 
+Lisa Raible
+CSD 340
+September 25, 2026
+Module 3.2 Assignment
+*/
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    background-color: #b7f7c8;
+    color: #2f4f3e;
+    border: 1px solid #d6a800;
+    padding: 10px;
+}
+
+a {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #39d98a;
+}
+
+a:visited {
+    color: #66cdaa;
+}
