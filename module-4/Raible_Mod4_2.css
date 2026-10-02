@@ -1,0 +1,41 @@
+/*
+Lisa Raible
+09/27/2026
+Assignment 4.2
+*/
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(47, 79, 62, 1);
+}
+
+h3 {
+    text-align: center;
+    color: rgba(46, 139, 87, 1);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: rgba(102, 205, 170, 1);
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+}
+
+#bottom a {
+    float: right;
+}
