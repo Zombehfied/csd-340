@@ -1,0 +1,103 @@
+/*
+Name: Lisa Raible
+Date: October 15, 2026
+Assignment: Module 6.2 Build a Webpage - Part 5
+*/
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding-bottom: 70px;
+    position: relative;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #EAF7F5;
+}
+
+header {
+    background-color: #1763A6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #114c7c;
+    border-bottom: 15px solid #27AE60;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #27AE60;
+    color: white;
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    background-color: white;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #16784f;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card-content a {
+    color: #1763A6;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #1763A6;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
