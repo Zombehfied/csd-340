@@ -104,7 +104,7 @@ footer {
 footer p {
     color: white;
     font-weight: 400;
-    float: left;
+    text-align: left;
     padding-left: 10px;
     font-style: italic;
 }
