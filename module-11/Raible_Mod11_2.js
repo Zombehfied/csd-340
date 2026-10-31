@@ -23,7 +23,7 @@ input.value = "";
 displayTasks();
 }
 
-funtion deleteLastEnrty() {
+funtion deleteLastEntry() {
 
   if (tasks.length === 0) {
     alert("There is no tasks to delete.");
