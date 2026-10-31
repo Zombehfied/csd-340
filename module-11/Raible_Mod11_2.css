@@ -1,0 +1,106 @@
+/*
+Name: Lisa Raible
+Date: October 31, 2026
+Assignment: Module 11.2 - JavaScript - Part 3
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #242424;
+}
+
+#container {
+    margin: 2% 5% 100px 5%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #333;
+}
+
+.todo-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4f3674;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b4b99;
+}
+
+h3 {
+    color: #4f3674;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#taskList {
+    padding-left: 25px;
+    line-height: 1.8;
+}
+
+#taskList li {
+    padding: 5px;
+}
+
+#emptyMessage {
+    color: #777;
+    font-style: italic;
+}
+
+.back-link {
+    margin-top: 30px;
+}
+
+a {
+    color: #4f3674;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
