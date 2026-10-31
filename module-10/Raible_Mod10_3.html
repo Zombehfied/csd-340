@@ -1,0 +1,69 @@
+<!--
+Name: Lisa Raible
+Date: October 31, 2026
+Assignment: Module 10.3 - JavaScript - Part 2
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lisa Raible">
+
+    <title>
+        CSD 340 Web Development with HTML and CSS
+    </title>
+
+    <link rel="stylesheet" href="module-10/Raible_Mod10_3.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <h1>
+            Assignment 10.3: JavaScript - Part 2
+        </h1>
+
+        <h2>
+            Umbra and Her Alter Ego
+        </h2>
+
+        <p>
+            Click the image to switch between Umbra and her alter ego, Umbrix.
+        </p>
+
+        <div class="image-card">
+            <h3>
+                Umbra | Umbrix
+            </h3>
+
+            <img src="images/umbra.jpg" id="character" alt="Umbra & Umbrix" onclick="changeImage()">
+
+            <p>
+                Click the image to transform Umbra into her alter ego Umbrix and vice versa.
+            </p>
+        </div>
+
+        <p class="back-link">
+            <a href="../index.html">
+                Back to Landing Page
+            </a>
+        </p>
+
+    </div>
+
+    <script>
+        function changeImage() {
+            let image = document.getElementById("character");
+
+            if (image.getAttribute("src") === "images/umbra.jpg") {
+                image.src = "images/Umbrix.jpg";
+            } else {
+                image.src = "images/umbra.jpg"
+            }
+        }
+    </script>
+</body>
+</html>

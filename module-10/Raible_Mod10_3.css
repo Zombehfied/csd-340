@@ -1,0 +1,53 @@
+/*
+Name: Lisa Raible
+Date: October 31, 2026
+Assignment: Module 10.3 - JavaScript - Part 2
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #242424;
+}
+
+#container {
+    margin: 2% 5% 100px 5%;
+    text-align: center;
+}
+
+h1 {
+    color: #4f3674;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #333;
+}
+
+.image-card {
+    margin-top: 30px;
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.image-card img:hover {
+    opacity: 0.9;
+}
+
+.back-link {
+    margin-top: 30px;
+}
+
+a {
+    color: #4f3674;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
