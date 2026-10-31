@@ -18,7 +18,7 @@ Assignment: Module 11.2 - JavaScript - Part 3
         CSD 340 Web Development with HTML and CSS
     </title>
 
-    <link rel="stylesheet" href="module-11/Raible_Mod11_2.css">
+    <link rel="stylesheet" href="Raible_Mod11_2.css">
 </head>
 
 <body>
@@ -54,7 +54,7 @@ Assignment: Module 11.2 - JavaScript - Part 3
                     Delete Last Entry
                 </button>
 
-                <button type="button" onclick="sortTask()">
+                <button type="button" onclick="sortTasks()">
                     Sort
                 </button>
 
@@ -86,6 +86,7 @@ Assignment: Module 11.2 - JavaScript - Part 3
 
         function addTask() {
             let input = document.getElementById("taskInput");
+            let task = input.value.trim();
 
             if (task === "") {
                 alert("Please enter a task.");
