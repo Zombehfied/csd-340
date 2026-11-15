@@ -35,6 +35,13 @@ h2 {
     border-radius: 8px;
 }
 
+.image-card img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 .image-card img:hover {
     opacity: 0.9;
 }
