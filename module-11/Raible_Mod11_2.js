@@ -26,7 +26,7 @@ displayTasks();
 function deleteLastEntry() {
 
   if (tasks.length === 0) {
-    alert("There is no tasks to delete.");
+    alert("There are no tasks to delete.");
     return;
   }
 
