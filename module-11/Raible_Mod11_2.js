@@ -1,5 +1,5 @@
 /* Name: Lisa Raible
-Date: October 31, 2026
+Date: November 21, 2026
 Assignment: Module 11.2 - JavaScript - Part 3
 */
 
